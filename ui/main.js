@@ -1,5 +1,7 @@
 var button = document.getElementById('counter');
-var value=0;
+button.innerHTML = 'hello';
+console.log('Success');
+/*var value=0;
 button.onClick = function() {
     
     /*var request = new XMLHttpRequest();
@@ -14,8 +16,8 @@ button.onClick = function() {
     }
     request.open('GET','http://imad.hasura.io/counter',true);
     request.send(null);*/
-    alert('Inside button.onClick');
+/*    alert('Inside button.onClick');
     var span = document.getElementById('count');
     value += 1;
     span.innerHTML = value.toString();
-};
+};*/
