@@ -1,4 +1,4 @@
-var button= document.getElementById('counter');
+var button = document.getElementById('counter');
 var value=0;
 button.onClick = function() {
     
@@ -14,6 +14,7 @@ button.onClick = function() {
     }
     request.open('GET','http://imad.hasura.io/counter',true);
     request.send(null);*/
+    alert('Inside button.onClick');
     var span = document.getElementById('count');
     value += 1;
     span.innerHTML = value.toString();
